@@ -1,0 +1,100 @@
+div.gallery {
+  margin: 5px;
+  margin-left: 40px;
+  border: 1px solid lightgray;
+  float: left;
+  width: 225px;
+  font-family: century gothic, sans-serif;
+  background-color: lemonchiffon;
+}
+
+div.gallery:hover {
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+div.gallery img {
+  width: 225px;
+  height: 250px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+}
+
+.header{
+  background-color: lightgoldenrodyellow;
+  padding: 25px;
+  text-align: center;
+  width: auto;
+
+}
+
+body{
+  background-color: wheat;
+}
+
+div.footer{
+    font-family: century gothic, times new roman, sans-serif;
+   background-color: lightgoldenrodyellow;
+   height: 100px;
+   margin-top: 480px;
+   width: auto;
+   text-align: left;
+
+}
+
+
+h1{
+
+  font-family: century gothic, times new roman, sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px whitesmoke;
+}
+
+h2{
+  text-align: center;
+  font-family:  century gothic, times new roman, sans-serif;;    
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: lemonchiffon;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+ color: #292929;
+ background-color: lightgoldenrodyellow;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
